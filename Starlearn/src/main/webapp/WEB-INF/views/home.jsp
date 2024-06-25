@@ -5,6 +5,7 @@
 	<title>Home</title>
 </head>
 <body>
+<c:import url="./nav.jsp"></c:import>
 <h1>
 	Hello world!  
 </h1>
