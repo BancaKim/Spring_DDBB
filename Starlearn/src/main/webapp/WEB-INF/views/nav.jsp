@@ -19,45 +19,79 @@
     <title>KB 스타런</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
-        <div class="container-fluid">
-            <div class="d-flex left ">
-                <span class="navbar-brand" href="#">
-                </span>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item me-2">
-                            <a class="nav-link fs-6" aria-current="page" href="#">나의강의실</a>
-                        </li>
-                        <li class="nav-item me-2">
-                            <a class="nav-link" href="#">연수신청</a>
-                        </li>
-                        <li class="nav-item me-2">
-                            <a class="nav-link" href="#">자기주도학습</a>
-                        </li>
-                        <li class="nav-item me-2">
-                            <a class="nav-link" href="#">자기주도학습지원</a>
-                        </li>
-                        <li class="nav-item me-2">
-                            <a class="nav-link" href="#">생활연수</a>
-                        </li>
-                        <li class="nav-item me-2">
-                            <a class="nav-link" href="#">Help Desk</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="d-flex nav-right align-items-center">
-                <span class="d-flex iconRight align-items-center"><a href="#"><i class="fa-xl fa-solid fa-bell align-middle"></i></a></span>
-                <span class="d-flex iconRight align-items-center"><a href="#"><i class="fa-xl fa-solid fa-calendar align-middle"></i></a></span>
-                <span class="box"><img class="profile" src="${pageContext.request.contextPath}/resources/images/1654530.jpg"></span>
-            </div>
-        </div>
-    </nav>
+	<header>
+		<nav class="navbar">
+			<div class="left-container">
+				<a href="#" class="logo">
+					</a>
+				<ul class="main-menu">
+					<li class="item">
+						<div class="item__name">나의강의실</div>
+						<div class="item__contents">
+							<div class="contents__menu">
+								<ul class="inner">
+									<li><a href=#>진행중인연수</a></li>
+									<li><a href=#>예정된 연수</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="item">
+						<div class="item__name">연수신청</div>
+						<div class="item__contents">
+							<div class="contents__menu">
+								<ul class="inner">
+									<li><a href=#>연수신청</a></li>
+									<li><a href=#>연간연수 일정</a></li>
+									<li><a href=#>연수신청 현황조회</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="item">
+						<div class="item__name">자기주도 학습</div>
+						<div class="item__contents">
+							<div class="contents__menu">
+								<ul class="inner">
+									<li><a href=#>학원비 지원신청</a></li>
+									<li><a href=#>지원신청 현황조회</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="item">
+						<div class="item__name">생활연수</div>
+						<div class="item__contents">
+							<div class="contents__menu">
+								<ul class="inner">
+									<li><a href=#>생활연수 신청</a></li>
+									<li><a href=#>생활연수 신청내역</a></li>
+									<li><a href=#>공지사항</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="item">
+						<div class="item__name">Help Desk</div>
+						<div class="item__contents">
+							<div class="contents__menu">
+								<ul class="inner">
+									<li><a href=#>공지사항</a></li>
+									<li><a href=#>Q&A</a></li>
+									<li><a href=#>HR(인재개발) 소개</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+				</div>
+				<div class="right-container">
+					 <div class="iconRight"><a href="#"><i class="fa-xl fa-solid fa-bell align-middle"></i></a></div>
+	                <div class="iconRight"><a href="#"><i class="fa-xl fa-solid fa-calendar align-middle"></i></a></div>
+	                <div class="box"><img class="profile" src="${pageContext.request.contextPath}/resources/images/1654530.jpg"></div>
+				</div>
+		</nav>
+	</header>
 
     <div class="main container">
         <!-- Content here -->
