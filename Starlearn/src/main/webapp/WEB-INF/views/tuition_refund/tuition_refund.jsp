@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<c:import url="NavBar.jsp" var="NavBar"/>
+	<c:import url="../nav.jsp" var="NavBar"/>
 	<c:out value="${NavBar}" escapeXml="false"/>
     <meta charset="UTF-8">
     <style>
@@ -65,9 +65,9 @@
 			</button>
         </div>
         <br>
-        <img src="../resources/img/지원내용.png"><br>
-        <img src="../resources/img/지원대상.png"><br>
-        <img src="../resources/img/필요서류.png">
+        <img src="./resources/images/지원내용.png"><br>
+        <img src="./resources/images/지원대상.png"><br>
+        <img src="./resources/images/필요서류.png">
     </center>
     
     <!-- 모달 창 -->
