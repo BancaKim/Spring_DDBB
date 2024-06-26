@@ -13,5 +13,6 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<c:import url="./footer.jsp"></c:import>
 </body>
 </html>
