@@ -7,7 +7,9 @@
 <body>
 <c:import url="./nav.jsp"></c:import>
 <h1>
-	Hello world!  HO~  수정수정
+
+	Hello world!  HO~DFD
+
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
