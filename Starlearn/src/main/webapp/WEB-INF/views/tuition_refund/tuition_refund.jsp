@@ -4,7 +4,7 @@
 <link rel="shortcut icon" href="<c:url value='./resources/images/favicon.ico'/>" type="image/x-icon"/>
 <link rel="icon" href="<c:url value='./resources/images/favicon.ico'/>" type="image/x-icon"/>
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko"> 
 <head>
 	<c:import url="../nav.jsp" var="NavBar"/>
 	<c:out value="${NavBar}" escapeXml="false"/>
