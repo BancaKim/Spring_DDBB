@@ -38,7 +38,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/tuition_refund", method = RequestMethod.GET)
 	public String tuition_refundPage(Model model) {
-		return "tuition_refund";
+		return "tuition_refund/tuition_refund";
 	}
 	
 }
