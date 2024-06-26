@@ -21,6 +21,7 @@
     font-size: 16px;
     color: #545045;
     font-weight: 600;
+    font-family: 'NanumSquareRound';
 }
 .navbar-brand {
     background: url("../images/kblogo.png") no-repeat 0 50%;
